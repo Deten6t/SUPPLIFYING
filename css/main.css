@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'ofont.ru_Hero';
+  src: url(../fonts/ofont.ru_Hero.eot);
+  src: url(../fonts/ofont.ru_Hero.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Hero.otf) format('otf'),
+       url(../fonts/ofont.ru_Hero.svg#ofont.ru_Hero) format('svg'),
+       url(../fonts/ofont.ru_Hero.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Hero.woff) format('woff'),
+       url(../fonts/ofont.ru_Hero.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'ofont.ru_Daray';
+  src: url(../fonts/ofont.ru_Daray.eot);
+  src: url(../fonts/ofont.ru_Daray.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Daray.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Daray.otf) format('otf'),
+       url(../fonts/fonts/fonts/ofont.ru_Daray.svg#ofont.ru_Daray) format('svg'),
+       url(../fonts/fonts/ofont.ru_Daray.woff) format('woff'),
+       url(../fonts/ofont.ru_Daray.woff2) format('woff2');
+      font-weight: 200;
+      font-style:normal; 
+
+
+}
+div.content { width: 1000px }
+
+h1, h2,h3, h4, h5. h6{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header{
+    background: url("../img/roman.jpg") no-repeat center top / cover;
+    padding-top: 17px;
+    color: #fff; 
+}
+
+
+header a{
+    color: #fff;
+}
+
+.Главная {
+    display: flex;
+}
+.Главная li a {
+    font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+
+.Главная li {
+    margin-right: 34px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.logo {
+    margin-right: 327px;
+}
+.offer p{
+    font-size: 30px;
+    font-family: 'ofont.ru_Hero';
+    margin-top: 20px;
+    line-height: 0.7em;
+}
+.offer h1{
+    font-family: 'ofont.ru_Hero';
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.offer h2{
+    font-family: 'ofont.ru_Hero';
+    padding-bottom: 133px;
+}
+.functions{
+    display: flex;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+.description p{
+     font-family: 'ofont.ru_Hero';
+     font-weight: 200;
+     text-align: justify;
+     padding-right:15px;
+
+}
+.description h3{
+    font-family: 'ofont.ru_Daray';
+    font-size: 40px;
+    text-align: center; 
+     margin-right: 291px;
+}
+.block-vert-line{
+border-left:1px solid black;
+padding-left:15px;
+height: 400px;
+}
+.sek  {
+    display: flex;
+    margin-right: 413px;
+    font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+
+}
+.sek li a{
+    font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin-right: 413px;
+}
+
