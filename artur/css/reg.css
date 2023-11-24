@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'ofont.ru_Hero';
+  src: url(../fonts/ofont.ru_Hero.eot);
+  src: url(../fonts/ofont.ru_Hero.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Hero.otf) format('otf'),
+       url(../fonts/ofont.ru_Hero.svg#ofont.ru_Hero) format('svg'),
+       url(../fonts/ofont.ru_Hero.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Hero.woff) format('woff'),
+       url(../fonts/ofont.ru_Hero.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'ofont.ru_Daray';
+  src: url(../fonts/ofont.ru_Daray.eot);
+  src: url(../fonts/ofont.ru_Daray.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Daray.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Daray.otf) format('otf'),
+       url(../fonts/fonts/fonts/ofont.ru_Daray.svg#ofont.ru_Daray) format('svg'),
+       url(../fonts/fonts/ofont.ru_Daray.woff) format('woff'),
+       url(../fonts/ofont.ru_Daray.woff2) format('woff2');
+      font-weight: 200;
+      font-style:normal; 
+
+
+}
+*{ 
+padding: 0;
+margin: 0;
+ }
+.header{
+    background: url("../img/reg.jpg") no-repeat center top / cover;
+   position: relative;
+    padding-top: 17px;
+    color: #fff;
+    height: 950px; 
+}
+.center {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+top: 40%;
+transform: translateY(-40%);
+transform: translateX(760px);
+}
+h2 {
+  font-family: 'ofont.ru_Hero';
+  color: #000000;
+  font-size: 35px;
+}
+.header p {
+  font-size: 20px;
+  color: #000;
+      display: flex;
+    justify-content: center;
+}
+ .cardList{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card{
+        
+        background-color: #DADADA;
+        max-width: 2500px;
+        padding: 50px;
+        box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+        border-radius:25px;
+    }
+    .text{
+        text-align:center;
+    }
+.abc{
+    width:200px;
+    height:150px;
+}

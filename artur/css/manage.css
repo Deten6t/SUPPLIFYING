@@ -1,0 +1,283 @@
+@font-face {
+  font-family: 'ofont.ru_Hero';
+  src: url(../fonts/ofont.ru_Hero.eot);
+  src: url(../fonts/ofont.ru_Hero.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Hero.otf) format('otf'),
+       url(../fonts/ofont.ru_Hero.svg#ofont.ru_Hero) format('svg'),
+       url(../fonts/ofont.ru_Hero.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Hero.woff) format('woff'),
+       url(../fonts/ofont.ru_Hero.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'ofont.ru_Daray';
+  src: url(../fonts/ofont.ru_Daray.eot);
+  src: url(../fonts/ofont.ru_Daray.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Daray.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Daray.otf) format('otf'),
+       url(../fonts/fonts/fonts/ofont.ru_Daray.svg#ofont.ru_Daray) format('svg'),
+       url(../fonts/fonts/ofont.ru_Daray.woff) format('woff'),
+       url(../fonts/ofont.ru_Daray.woff2) format('woff2');
+      font-weight: 200;
+      font-style:normal; 
+
+
+}
+*{ 
+padding: 0;
+margin: 0;
+ }
+ .adout {
+    width: 1870px;
+}
+.header {
+   background-color: rgba(89, 161, 228, 1);
+   position: relative;
+    padding-top: 17px;
+    
+    height: 220px;
+}
+
+
+.Главная {
+    display: flex;
+}
+.Главная li a {
+    font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.Главная li {
+    margin-right: 55px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+
+.logo {
+    margin-right: 98.78px;
+    margin-left: 226px;
+}
+.ger {
+ font-size: 20px;
+ font-family: 'ofont.ru_Daray';
+}
+.container1 p {
+color: #ffffff;
+    font-size: 15px;
+ }
+.masenger {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.masenger1 {
+    padding-left: 904px;
+    padding-top: 10px;
+        display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer p {
+     font-family: 'ofont.ru_Hero';
+     font-size: 20px;
+     font-weight: 200px;
+     text-align: justify;
+      vertical-align: top;
+     
+     padding-bottom: 15px;
+}
+.footer {
+    background-color: rgb(54, 48, 48);
+    width: 80vx;
+    height: 281px;
+}
+.create-line {
+
+  border-top: 1px solid #fff;
+  
+}
+.create-line1 {
+ 
+  border-top: 1px solid #000;
+  
+}
+.Поиск {
+  font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+    color: rgba(0, 0, 0, 0.50);
+}
+.cardList{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card{
+        
+        background-color: #FFFFFF;
+        width: 750px;
+        padding: 15px;
+        border-radius:25px;
+        margin-right: 73px;
+    }
+    .card1{
+        
+        background-color: #59A1E4;
+        width: 1700px;
+        padding: 25px;
+        border-radius:250px;
+        margin-right: 73px;
+        margin-left: 85px;
+    }
+.catol{
+ margin-left: 216px;
+ margin-right: 206px;
+}
+.kar {
+  padding-right: 30px;
+}
+.description {
+    display: flex;
+    justify-content: space-between;
+    }
+.description p{
+  font-family: 'ofont.ru_Hero';
+  font-size: 70px;
+  color: #fff;
+     display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.man h1 {
+  font-size: 32px;
+  color: black;
+  font-family: 'ofont.ru_Hero';
+  margin-right: 1000px;
+  margin-left: 55px;
+
+}
+.man{
+ display: flex;
+
+
+}
+.man h2 {
+  font-size: 22px;
+  color: #fff;
+  font-family: 'ofont.ru_Hero';
+     display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card2 {
+        background-color: #59A1E4;
+        width: 300px;
+        padding: 5px;
+        border-radius:250px;
+        margin-right: 73px;
+        margin-left: 85px;
+    }
+.stroy {
+  display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card_stroy{
+  background-color: #F1F1F1;
+        width: 250px;
+        padding: 40px;
+        border-radius:25px;
+        margin-right: 73px;
+        margin-left: 85px;
+}
+.card_stroy1{
+  background-color: #F1F1F1;
+        width: 250px;
+        padding: 32.5px;
+        border-radius:25px;
+        margin-right: 73px;
+    
+}
+.card_stroy2{
+  background-color: #F1F1F1;
+        width: 250px;
+        padding: 25px;
+        border-radius:25px;
+        margin-right: 73px;
+    
+}
+.card_stroy3{
+  background-color: #F1F1F1;
+        width: 250px;
+        padding: 25px;
+        border-radius:25px;
+      
+        
+}
+.text {
+  display: flex;
+  
+  margin-right: 310px;
+}
+h3 {
+  margin-right: 310px;
+  margin-left: 205px;
+  font-size: 32px;
+}
+h4 {
+  margin-right: 310px;
+  font-size: 32px;
+}
+h5 {
+  margin-right: 310px;
+  font-size: 32px;
+}
+h6{
+  font-size: 32px;
+}
+.text_op{
+  font-size: 20px;
+  font-family: 'ofont.ru_Daray';
+  display: flex;
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}

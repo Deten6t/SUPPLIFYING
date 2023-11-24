@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'ofont.ru_Hero';
+  src: url(./ofont.ru_Hero.eot);
+  src: url(./ofont.ru_Hero.eot?#iefix) format('embedded-opentype'),
+       url(./ofont.ru_Hero.otf) format('otf'),
+       url(./ofont.ru_Hero.svg#ofont.ru_Hero) format('svg'),
+       url(./ofont.ru_Hero.ttf) format('truetype'),
+       url(./ofont.ru_Hero.woff) format('woff'),
+       url(./ofont.ru_Hero.woff2) format('woff2');
+}

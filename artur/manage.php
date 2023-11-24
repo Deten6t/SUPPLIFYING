@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Магазин</title>
+	<link rel="stylesheet" href="css/manage.css">
+</head>
+<body>
+<header id="header" class="header">
+	<div class="container"> 
+		<div class="nav">
+         	<img src="img/logo.svg" alt="SUPPLIFYING" class="logo">
+         	
+         	<ul class="Главная">
+         		<li>
+         			<a href="index.php">
+         				Главная
+         			</a>
+         		</li>
+                <li>
+         			<a href="dialyplanner.php">
+         				Доска заказов
+         			</a>
+         		</li> 
+         		<li>
+         			<a href="manage.php">
+         				Магазин
+         			</a>
+         		</li>
+         		<li>
+                 <a href="login.php">
+         				войти
+         			</a>
+         		</li>
+         		<li>
+                 <a href="registr.php">
+         				Зарегистрироваться
+         			</a>
+         		</li>
+
+         	</ul>
+         	
+         		
+         	</div>
+         	<div class="create-line">
+         		<div class="nav1">
+         			<ul class="Поиск">
+         			<img src="img/catol.jpg" class="catol">
+         			<div class="cardlist">
+         				<div class="card">
+         					<p>Поиск            </p>
+
+         				</div>
+
+
+         			</div>
+         			<img src="img/kar.jpg" class="kar">
+         			<img src="img/kolo.jpg">
+         		</ul>
+
+         		</div>
+
+         </div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<section id="adout" class="adout">
+		<div class="description">
+		<div class="container">
+			<div class="cardlist">
+				<div class="card1">
+					<p>Здесь могла быть ваша реклама</p>
+				</div>
+				</div>
+				<br>
+				<br>
+
+                <div class="create-line1">
+                	
+                </div>
+			</div>
+			<div class="man">
+              
+
+			</div>
+			
+
+		</div>
+		<br>
+		<br>
+		<div class="man">
+              <h1> Стройматериалы</h1>
+              <div class="cardlist">
+         				<div class="card2">
+         					<h2>Показать 100 товаров</h2>
+         				</div>
+         			</div>
+
+			</div>
+			<br>
+			<div class="stroy"> 
+               <div class="cardlist">
+         				<div class="card_stroy">
+         					<img src="img/stroy.png" class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy1">
+         					<img src="img/stroy1.png"class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy2">
+         					<img src="img/stroy2.png"class="stroy_center">
+         				</div>
+         			</div>
+                                <div class="cardlist">
+         				<div class="card_stroy3">
+         					<img src="img/stroy3.png"class="stroy_center">
+         				</div>
+         			</div>
+
+
+			</div>
+			<div class="text">
+				<h3>1199 ₽</h3>
+                 <h4>1499 ₽</h4>
+                 <h5>45 ₽</h5>
+                 <h6>45 ₽</h6>
+			</div>
+			<div class="text_op">
+				<p>Брус обрезной, гост, сосна/ель Arsenal-wood, 100 х 100 х 6000 мм</p>
+				<p>ДСП 2750х1830х16мм шлифованное 1 сорт</p>
+				<p>Уголок равносторонний 60х60х60х2,0мм</p>
+				<p>Саморезы черные по дереву 3,5х51 мм, оксидированные, 
+(ведро - 1кг)</p>
+
+
+			</div>
+
+			<br>
+			<div class="create-line1">
+                	
+                </div>
+                <br>
+                <div class="man">
+              <h1> Продукты</h1>
+              <div class="cardlist">
+         				<div class="card2">
+         					<h2>Показать 997 товаров</h2>
+         				</div>
+         			</div>
+
+			</div>
+			<br>
+			<div class="stroy"> 
+               <div class="cardlist">
+         				<div class="card_stroy">
+         					<img src="img/pr.png" class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy1">
+         					<img src="img/pr1.png"class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy2">
+         					<img src="img/pr2.png"class="stroy_center">
+         				</div>
+         			</div>
+                                <div class="cardlist">
+         				<div class="card_stroy3">
+         					<img src="img/pr3.png"class="stroy_center">
+         				</div>
+         			</div>
+
+
+			</div>
+			<div class="text">
+				<h3>478 ₽</h3>
+                 <h4>69 ₽</h4>
+                 <h5>4199 ₽</h5>
+                 <h6>89 ₽</h6>
+			</div>
+			<div class="text_op">
+				<p>Мука Макфа Пшеничная высший сорт, полипропиленовый мешок, 10 кг</p>
+				<p>Тушенка Мясные консервы Совпрод  Смоленская Дачная с говядиной, 325г</p>
+				<p>Сахар песок мешок 50 кг.
+</p>
+				<p>Крупа Увелка Гречневая ядрица Экстра (800 г)</p>
+
+
+			</div>
+
+			<br>
+			<div class="create-line1">
+                	
+                </div>
+                <br>
+                <div class="man">
+              <h1> Лекарства</h1>
+              <div class="cardlist">
+         				<div class="card2">
+         					<h2>Показать 887 товаров</h2>
+         				</div>
+         			</div>
+
+			</div>
+			<br>
+			<div class="stroy"> 
+               <div class="cardlist">
+         				<div class="card_stroy">
+         					<img src="img/tb.png" class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy1">
+         					<img src="img/tb2.png"class="stroy_center">
+         				</div>
+         			</div>
+                               <div class="cardlist">
+         				<div class="card_stroy2">
+         					<img src="img/tb3.png"class="stroy_center">
+         				</div>
+         			</div>
+                                <div class="cardlist">
+         				<div class="card_stroy3">
+         					<img src="img/tb4.png"class="stroy_center">
+         				</div>
+         			</div>
+
+
+			</div>
+			<div class="text">
+				<h3>49 ₽</h3>
+                 <h4>99 ₽</h4>
+                 <h5>39 ₽</h5>
+                 <h6>119 ₽</h6>
+			</div>
+			<div class="text_op">
+				<p>Ибупрофен 200 мг 20 шт. таблетки, покрытые оболочкой</p>
+				<p>Но-шпа Дуо таб 40мг+500мг 12 шт</p>
+				<p> Парацетамол 500 мг 20 шт. таблетки</p>
+				<p>Уголь активированный, таблетки 250 мг 50 шт</p>
+
+
+			</div>
+
+			<br>
+			
+
+
+
+	</section>
+	<br>
+     <br>
+     <br>
+     <footer id="footer" class="footer">
+     	<div class="container1">
+     		<div class=" masenger">
+     		<img src="img/logo.svg" alt="SUPPLIFYING" class="logo1">
+     		<div class="masenger1">
+     		<img src="img/telegram.png"  height="60%" width="60%">
+     	     <img src="img/whatsapp.png"  height="60%" width="60%">
+     	     <img src="img/vkontakte.png"  height="60%" width="60%">
+     	 </div>
+     	 <div class="ger">
+     	 	<br>
+     	 	<p> Политика конфиденциальности</p>
+     	 	<p>8 000 555-55-55</p>
+     	 	<p>О нас</p>
+     	 </div>
+     	 </div>
+     	 <br>
+     	 <br>
+     	 <br>
+             <p class="p">ООО «Supplifying» с целью персонализации сервисов и повышения удобства пользования сайтом использует файлы «cookie». Продолжая просматривать сайт, вы соглашаетесь с данными условиями. В случае несогласия, вы можете отключить использование «cookie» в настройках браузера.</p>
+     	     
+     	     
+     	</div>
+     </footer>
+
+</header>
+</body>
+</html>

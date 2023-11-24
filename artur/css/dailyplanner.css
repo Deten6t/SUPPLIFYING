@@ -1,0 +1,304 @@
+@font-face {
+  font-family: 'ofont.ru_Hero';
+  src: url(../fonts/ofont.ru_Hero.eot);
+  src: url(../fonts/ofont.ru_Hero.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Hero.otf) format('otf'),
+       url(../fonts/ofont.ru_Hero.svg#ofont.ru_Hero) format('svg'),
+       url(../fonts/ofont.ru_Hero.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Hero.woff) format('woff'),
+       url(../fonts/ofont.ru_Hero.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'ofont.ru_Daray';
+  src: url(../fonts/ofont.ru_Daray.eot);
+  src: url(../fonts/ofont.ru_Daray.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/ofont.ru_Daray.ttf) format('truetype'),
+       url(../fonts/ofont.ru_Daray.otf) format('otf'),
+       url(../fonts/fonts/fonts/ofont.ru_Daray.svg#ofont.ru_Daray) format('svg'),
+       url(../fonts/fonts/ofont.ru_Daray.woff) format('woff'),
+       url(../fonts/ofont.ru_Daray.woff2) format('woff2');
+      font-weight: 200;
+      font-style:normal; 
+
+
+}
+*{ 
+padding: 0;
+margin: 0;
+ }
+ .adout {
+    width: 1870px;
+}
+.header {
+   background-color: rgba(89, 161, 228, 1);
+   position: relative;
+    padding-top: 17px;
+    
+    height: 220px;
+}
+
+
+.Главная {
+    display: flex;
+}
+.Главная li a {
+    font-family: 'ofont.ru_Daray';
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+
+.Главная li {
+    margin-right: 55px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+
+.logo {
+    margin-right: 98.78px;
+    margin-left: 226px;
+}
+.create-line {
+ 
+  border-top: 1px solid #fff;
+  
+}
+.cardList{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .card{
+        
+        background: url("../img/roman2.png")no-repeat center top / cover;
+        width: 1600px;
+        padding: 150px;
+        border-radius:100px;
+        margin-right: 73px;
+    }
+    .card p{
+        font-family: 'ofont.ru_Hero';
+        font-size: 50px;
+        color: #fff;
+    }
+    .card h1{
+        font-family: 'ofont.ru_Hero';
+ font-size: 50px;
+        color: #1E88E5;
+        display: flex;
+        margin-right: 561px;
+    }
+    .card1{
+        display: flex;
+    }
+    .card3{
+        
+        background-color: #fff;
+        width: 550px;
+        padding: 50px;
+        border-radius:20px;
+        margin-right: 73px;
+    }
+     .card4{
+        
+        background-color: #EEEEEE;
+        width: 500px;
+        padding: 10px;
+        border-radius:20px;
+        margin-right: 73px;
+    }
+     .card5{
+        
+        background-color: #EEEEEE;
+        width: 500px;
+        padding: 10px;
+        border-radius:20px;
+        margin-right: 73px;
+    }
+    .card6{
+        
+        background-color: #59A1E4;
+        width: 100px;
+        padding: 10px;
+        border-radius:20px;
+        margin-right: 73px;
+    }
+    .card3 p {
+     color: black;
+    font-size: 28px;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .card4 p {
+     color: rgba(0, 0, 0, 0.50);
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .card5 p {
+      color: rgba(0, 0, 0, 0.50);
+    font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .card6 p {
+      color: #FFFFFF;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    }
+    .ggh {
+        display: flex;
+    }
+    .footer p {
+     font-family: 'ofont.ru_Hero';
+     font-size: 20px;
+     font-weight: 200px;
+     text-align: justify;
+      vertical-align: top;
+     
+     padding-bottom: 15px;
+}
+.footer {
+    background-color: rgb(54, 48, 48);
+    width: 80vx;
+    height: 281px;
+}
+.masenger {
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.masenger1 {
+    padding-left: 904px;
+    padding-top: 10px;
+        display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.colvo {
+display: flex;
+}
+.colvo h2{
+font-size: 80px ;
+margin-right: 441px;
+margin-left: 379px;
+}
+.colvo h3{
+font-size: 80px ;
+margin-right: 491px;
+}
+.colvo h4{
+font-size: 80px;
+}
+.colvo1 {
+         font-family: 'ofont.ru_Hero';
+    display: flex;
+    font-size: 40px;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.colvo1_3 {
+    margin-left: ;
+
+} 
+.colvo1_1 {
+    margin-left: 150px ;
+    margin-right: -40px;
+
+} 
+.colvo1_2 {
+    margin-left:  ;
+ margin-right: -40px;
+} 
+.card7{
+   background-color: #59A1E4;
+    width: 447px;
+    padding: 21px;
+    border-radius: 20px;
+    
+    margin-right: 69px;
+    margin-left: 683px;
+}
+.card7 p{
+       color: #FFFFFF;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -3px;
+}
+ h5 {
+    font-size: 50px ;
+    margin-left: 120px; 
+
+}
+.card_stroy{
+    display: block;
+  background-color: #F1F1F1;
+        width: 358px;
+        padding: 40px;
+        border-radius:25px;
+        margin-right: 73px;
+        margin-left: 85px;
+}
+.card_stroy1{
+  background-color: #F1F1F1;
+        width: 432px;
+        padding: 32.5px;
+        border-radius:25px;
+        margin-right: 73px;
+    
+}
+.card_stroy2{
+  background-color: #F1F1F1;
+        width: 460px;
+        padding: 25px;
+        border-radius:25px;
+        margin-right: 73px;
+    
+}
+.stroy {
+  display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.card_stroy h6{
+    display: block;
+    font-size: 26px;
+}
+.card_stroy1 h7{
+    display: block;
+    font-size: 26px;
+}
+.card_stroy2 h8{
+    display: block;
+    font-size: 26px;
+}
+
+
+
+
+
